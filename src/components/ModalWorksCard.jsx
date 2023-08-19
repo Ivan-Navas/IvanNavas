@@ -4,6 +4,7 @@ import "../styles/modal.css";
 import github from "../images/gitHub.webp";
 import { useContext } from "react";
 import { Context } from "../Context/Context";
+import ripple from '../images/Ripple.svg'
 
 function ModalWorkCard({ estado, setEstado }) {
   const modalWorkContext = useContext(Context);
@@ -24,9 +25,13 @@ function ModalWorkCard({ estado, setEstado }) {
               <AiOutlineClose className="CloseButton" />
             </button>
             <div className="containerGif">
-              <video width="700" height="327" autoPlay loop>
+              {work.gif ? (<div>
+                <video width="700" height="327" autoPlay loop>
                 <source src={work.gif} />
               </video>
+              </div>) : (<div className="ripple">
+                <img src={ripple} alt="rolling" />
+              </div>)}
             </div>
             <div className="containerInfo">
               <div className="descriptionContainer">
