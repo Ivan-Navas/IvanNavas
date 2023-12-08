@@ -1,20 +1,10 @@
-import html from '../images/HTML5.png' 
-import css from '../images/CSS3.png'    
-import js from '../images/JS.png'    
-import ts from '../images/ts.png'    
-import react from '../images/react.png'    
-import sql from '../images/sql.png'    
-import mongo from '../images/mongodb.png'    
-import git from '../images/git.png'    
-
-
 export const technologies = [
-  {imagen: html, name: "HTML" },
-  {imagen: css, name: "CSS" },
-  {imagen: js, name: "JavaScript" },
-  {imagen: react, name: "React" },
-  {imagen: sql, name: "MySql" },
-  {imagen: mongo, name: "MongoDB" },
-  {imagen: ts, name: "TypeScript" },
-  {imagen: git, name: "Git" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073393/HTML5_j7mje7.png", name: "HTML" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073356/CSS3_zbvohi.png", name: "CSS" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073394/JS_euvmtn.png", name: "JavaScript" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073404/react_bnlbpx.png", name: "React" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073406/sql_zmzfps.png", name: "MySql" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073396/mongodb_p9fl6n.png", name: "MongoDB" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073407/ts_kegogt.png", name: "TypeScript" },
+  {imagen: "https://res.cloudinary.com/ivannavas/image/upload/v1702073389/Git_fc56rx.png", name: "Git" },
 ]
