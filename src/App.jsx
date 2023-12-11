@@ -30,8 +30,8 @@ function App() {
         </div>
         <div className="mySecoContainer">
           <div>
-            {/* <h2 className="title margin">Tecnologías</h2>
-            <Technologies /> */}
+            <h2 className="title margin">Tecnologías</h2>
+            <Technologies />
           </div>
           <p className="secundary">{myInfo.secundaryInfo}</p>
         </div>
