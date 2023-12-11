@@ -35,10 +35,10 @@ function App() {
           </div>
           <p className="secundary">{myInfo.secundaryInfo}</p>
         </div>
-        <div className="worksContainer">
+        {/* <div className="worksContainer">
           <h2 className="title margin">Proyectos</h2>
           <Works />
-        </div>
+        </div> */}
       </ContextProvider>
     </>
   );
