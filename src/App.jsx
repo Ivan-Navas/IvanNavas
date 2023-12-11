@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <ContextProvider>
-        <div className="iconsContainer">
+
+        <h2>prueba solo hola mundo</h2>
+        {/* <div className="iconsContainer">
           <a href="https://github.com/Ivan-Navas" target="_blank">
             <AiFillGithub className="logos github" />
           </a>
@@ -30,12 +32,12 @@ function App() {
         </div>
         <div className="mySecoContainer">
           <div>
-            {/* <h2 className="title margin">Tecnologías</h2>
-            <Technologies /> */}
+            <h2 className="title margin">Tecnologías</h2>
+            <Technologies />
           </div>
           <p className="secundary">{myInfo.secundaryInfo}</p>
         </div>
-        {/* <div className="worksContainer">
+        <div className="worksContainer">
           <h2 className="title margin">Proyectos</h2>
           <Works />
         </div> */}
